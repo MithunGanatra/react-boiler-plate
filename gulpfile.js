@@ -7,7 +7,7 @@ var reactify = require('reactify'); // This is to transform React component to J
 var source = require('vinyl-source-stream'); // This is to Use conventional Text streams with Gulp
 
 var config = {
-	port: 9005,
+	port: 8000,
 	devBaseUrl: 'http://localhost',
 	paths: {
 		css: './src/**/*.css',
